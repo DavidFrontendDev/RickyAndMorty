@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
-
 * {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -102,4 +101,9 @@ input {
   border-radius: 8px;
   border: none;
   box-shadow: 0 4px 10px rgba(76, 175, 80, 0.5);
+}
+@media (max-width: 400px) {
+  input {
+    width: 130px;
+  }
 }

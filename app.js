@@ -21,13 +21,13 @@ async function mostrarPagina(page) {
     const nombre = document.createElement("h2");
     nombre.textContent = personaje.name;
     const especie = document.createElement("h4");
-    especie.textContent = personaje.species;
+    especie.textContent = "Species: " + personaje.species;
     const tipo = document.createElement("h4");
-    tipo.textContent = personaje.type || "Desconocido";
+    tipo.textContent = "Type: " + (personaje.type || "Unknown");
     const img = document.createElement("img");
     img.src = personaje.image;
     const ubicacion = document.createElement("h4");
-    ubicacion.textContent = personaje.location.name;
+    ubicacion.textContent = "Location: " + personaje.location.name;
 
     div.appendChild(nombre);
     div.appendChild(img);
