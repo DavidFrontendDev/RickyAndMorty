@@ -1,4 +1,4 @@
-# [📺Ricky And Morty Characters](https://davidfrontenddev.github.io/RickyAndMorty/)
+# [📺 Ricky And Morty Characters](https://davidfrontenddev.github.io/RickyAndMorty/)
 
 - Utilizar la API y mostrar cada pagina de personajes y meter un buscador para filtrar por nombre.
 
